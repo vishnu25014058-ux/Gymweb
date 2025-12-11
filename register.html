@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Fit Jiwan - Register</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand"><div class="logo">FJ</div><div>Fit Jiwan</div></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="classes.html">Classes</a>
+      <a href="membership.html">Membership</a>
+      <a href="register.html">Register</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+<section class="card">
+<h2>Online Registration</h2>
+<form id="register-form">
+  <input id="r-name" placeholder="Full Name" required>
+  <input id="r-phone" placeholder="Phone Number" required>
+  <input id="r-email" type="email" placeholder="Email Address" required>
+  <textarea id="r-address" placeholder="Your Address"></textarea>
+
+  <select id="r-plan">
+    <option value="Monthly - 2000">Monthly - ₹2000</option>
+    <option value="3 Months - 5000">3 Months - ₹5000</option>
+    <option value="6 Months - 10000">6 Months - ₹10000</option>
+    <option value="1 Year - 16000">1 Year - ₹16000</option>
+  </select>
+
+  <select id="r-payment">
+    <option>Cash</option>
+    <option>UPI</option>
+    <option>Card</option>
+  </select>
+
+  <button type="submit">Pay & Join</button>
+</form>
+</section>
+
+</main>
+
+<footer>© 2025 Fit Jiwan</footer>
+<script src="app.js"></script>
+</body>
+</html>
